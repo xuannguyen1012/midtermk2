@@ -1,0 +1,49 @@
+.new-release {
+  font-size: 18px;
+}
+
+.new-release h2 {
+  margin-bottom: 10px;
+}
+
+.new-release-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180vh;
+  height: auto;
+  gap: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 192px;
+  height: 400px;
+  text-align: center;
+  transition: transform 0.3s;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 284px;
+  object-fit: cover;
+}
+
+.card p {
+  margin: 10px;
+  padding: 5px;
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  color: yellow;
+}
+
+.htl2 {
+  position: absolute;
+  bottom: -280px;
+}

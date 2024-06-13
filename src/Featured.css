@@ -1,0 +1,51 @@
+
+.featured {
+    text-align: center;
+    color: white;
+}
+
+.featured-content {
+    position: relative;
+    margin-top: 20px;
+}
+
+.featured img {
+    width: 1280px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.featured-description {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    text-align: left;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.featured h2 {
+    text-decoration: none;
+    margin-right: 1150px;
+}
+
+.featured p {
+    text-decoration: none;
+    margin-right: 800px;
+    color: gray;
+}
+
+.featured-description h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.featured-description p {
+    width: 590px;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 10px;
+}
